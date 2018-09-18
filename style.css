@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#21201e;
+
+  }
+  h1{
+    font-family: 'Syncopate', sans-serif;  
+
+}
+
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35pt;
+    margin-top:80px;
+    
+}
+
+
+.ball{
+    background-color: black;
+    border:5px solid rgba(11, 197, 243, 1);
+    border-top:5px solid rgba(0,0,0,0);
+    border-left: 5px solid rgba(0, 0,0,0);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    animation: girar infinite linear 1s;
+    position: relative;
+}
+
+
+@keyframes girar{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+};
+
+
+/* .ballas{
+    background-color: black;
+    border:5px solid rgba(11, 197, 243, 1);
+    border-top:5px solid rgba(0,0,0,0);
+    border-left: 5px solid rgba(0, 0,0,0);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+     animation: pomba infinite linear 4s;
+} */
+
+
+/* @keyframes pomba {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}; */
+
+img{
+    width: 10px;
+    height: 10px;
+}
+
+.xicara{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
